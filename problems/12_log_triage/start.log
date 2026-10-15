@@ -1,0 +1,16 @@
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_full_test...
+UVM_INFO /home/dv/tb/env/fifo_env.sv(41) @ 0: uvm_test_top.env [ENV] Build done
+UVM_WARNING /home/dv/tb/agent/fifo_mon.sv(88) @ 950: uvm_test_top.env.wr_agent.mon [MON] wr_en high while full
+UVM_ERROR /home/dv/tb/env/fifo_sb.sv(102) @ 1200: uvm_test_top.env.sb [SB_MISMATCH] exp=0x3a act=0x3b
+UVM_INFO /home/dv/tb/env/fifo_sb.sv(77) @ 1210: uvm_test_top.env.sb [SB] 12 items checked
+UVM_ERROR /home/dv/tb/env/fifo_sb.sv(102) @ 1450: uvm_test_top.env.sb [SB_MISMATCH] exp=0x41 act=0x40
+UVM_ERROR /home/dv/tb/agent/fifo_drv.sv(64) @ 1600: uvm_test_top.env.wr_agent.drv [DRV_TIMEOUT] no ready after 100 cycles
+UVM_INFO /home/dv/tb/env/fifo_sb.sv(77) @ 2000: uvm_test_top.env.sb [SB] 20 items checked
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    3
+UVM_WARNING :    1
+UVM_ERROR :    3
+UVM_FATAL :    0
