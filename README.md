@@ -36,14 +36,14 @@ cd vim-for-dv
 
 ## Problems
 
-<!-- progress -->**Progress: 3 / 15 solved**<!-- /progress -->
+<!-- progress -->**Progress: 4 / 15 solved**<!-- /progress -->
 
 | # | Problem | Practises | Level | Status |
 |---|---|---|---|---|
 | 01 | [Fix a testbench header](problems/01_insert_modes/) | `i` `a` `A` `o` `O` | Easy | ✅ solved |
 | 02 | [Jump around a FIFO](problems/02_navigation/) | `:se nu` `gg` `G` `16G` `0` | Easy | ✅ solved |
 | 03 | [Clean debug code out of a test](problems/03_delete/) | `dd` `5dd` `:N,Md` `:g/pattern/d` `D` | Easy | ✅ solved |
-| 04 | [Add a read agent to a UVM env](problems/04_copy_paste/) | `yy` `p` `ddp` `cw` `:s on one line` | Easy | ⬜ to do |
+| 04 | [Add a read agent to a UVM env](problems/04_copy_paste/) | `yy` `p` `ddp` `cw` `:s on one line` | Easy | ✅ solved |
 | 05 | [Old Verilog types to logic](problems/05_change_repeat/) | `/\<word\>` `cw` `n` `.` `u` | Medium | ⬜ to do |
 | 06 | [Switch assertions on and off](problems/06_visual_block/) | `Ctrl+v` `I` `$ A` `d` `j` | Medium | ⬜ to do |
 | 07 | [Rename a signal safely](problems/07_rename_signal/) | `:%s` `\< \>` `\C` `n flag` | Medium | ⬜ to do |
