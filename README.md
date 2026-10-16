@@ -36,12 +36,12 @@ cd vim-for-dv
 
 ## Problems
 
-<!-- progress -->**Progress: 1 / 15 solved**<!-- /progress -->
+<!-- progress -->**Progress: 2 / 15 solved**<!-- /progress -->
 
 | # | Problem | Practises | Level | Status |
 |---|---|---|---|---|
 | 01 | [Fix a testbench header](problems/01_insert_modes/) | `i` `a` `A` `o` `O` | Easy | ✅ solved |
-| 02 | [Jump around a FIFO](problems/02_navigation/) | `:se nu` `gg` `G` `16G` `0` | Easy | ⬜ to do |
+| 02 | [Jump around a FIFO](problems/02_navigation/) | `:se nu` `gg` `G` `16G` `0` | Easy | ✅ solved |
 | 03 | [Clean debug code out of a test](problems/03_delete/) | `dd` `5dd` `:N,Md` `:g/pattern/d` `D` | Easy | ⬜ to do |
 | 04 | [Add a read agent to a UVM env](problems/04_copy_paste/) | `yy` `p` `ddp` `cw` `:s on one line` | Easy | ⬜ to do |
 | 05 | [Old Verilog types to logic](problems/05_change_repeat/) | `/\<word\>` `cw` `n` `.` `u` | Medium | ⬜ to do |
