@@ -36,7 +36,7 @@ cd vim-for-dv
 
 ## Problems
 
-<!-- progress -->**Progress: 6 / 15 solved**<!-- /progress -->
+<!-- progress -->**Progress: 7 / 15 solved**<!-- /progress -->
 
 | # | Problem | Practises | Level | Status |
 |---|---|---|---|---|
@@ -46,7 +46,7 @@ cd vim-for-dv
 | 04 | [Add a read agent to a UVM env](problems/04_copy_paste/) | `yy` `p` `ddp` `cw` `:s on one line` | Easy | ✅ solved |
 | 05 | [Old Verilog types to logic](problems/05_change_repeat/) | `/\<word\>` `cw` `n` `.` `u` | Medium | ✅ solved |
 | 06 | [Switch assertions on and off](problems/06_visual_block/) | `Ctrl+v` `I` `$ A` `d` `j` | Medium | ✅ solved |
-| 07 | [Rename a signal safely](problems/07_rename_signal/) | `:%s` `\< \>` `\C` `n flag` | Medium | ⬜ to do |
+| 07 | [Rename a signal safely](problems/07_rename_signal/) | `:%s` `\< \>` `\C` `n flag` | Medium | ✅ solved |
 | 08 | [Replace inside one module only](problems/08_range_replace/) | `:se nu` `:N,Ms` `V then :` `:'<,'>s` | Medium | ⬜ to do |
 | 09 | [Macro: port list from a spec](problems/09_macro_ports/) | `qa ... q` `7@a` `I` `e` `a` | Harder | ⬜ to do |
 | 10 | [Macro: connect an instance](problems/10_macro_instance/) | `qa ... q` `yw` `p` `A` `a` | Harder | ⬜ to do |
