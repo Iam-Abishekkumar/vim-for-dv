@@ -36,7 +36,7 @@ cd vim-for-dv
 
 ## Problems
 
-<!-- progress -->**Progress: 9 / 15 solved**<!-- /progress -->
+<!-- progress -->**Progress: 10 / 15 solved**<!-- /progress -->
 
 | # | Problem | Practises | Level | Status |
 |---|---|---|---|---|
@@ -49,7 +49,7 @@ cd vim-for-dv
 | 07 | [Rename a signal safely](problems/07_rename_signal/) | `:%s` `\< \>` `\C` `n flag` | Medium | ✅ solved |
 | 08 | [Replace inside one module only](problems/08_range_replace/) | `:se nu` `:N,Ms` `V then :` `:'<,'>s` | Medium | ✅ solved |
 | 09 | [Macro: port list from a spec](problems/09_macro_ports/) | `qa ... q` `7@a` `I` `e` `a` | Harder | ✅ solved |
-| 10 | [Macro: connect an instance](problems/10_macro_instance/) | `qa ... q` `yw` `p` `A` `a` | Harder | ⬜ to do |
+| 10 | [Macro: connect an instance](problems/10_macro_instance/) | `qa ... q` `yw` `p` `A` `a` | Harder | ✅ solved |
 | 11 | [Fix the indentation of a module](problems/11_indent/) | `:set shiftwidth=2 expandtab` `V` `>` `<` `>>` | Medium | ⬜ to do |
 | 12 | [Triage a UVM log in Vim](problems/12_log_triage/) | `:v/pattern/d` `:g` `:%s#a#b#` `\S\+` `dd` | Harder | ⬜ to do |
 | 13 | [Copy signals across a split](problems/13_split_windows/) | `:vsp` `Ctrl+w w` `V` `y` `V then p` | Medium | ⬜ to do |
