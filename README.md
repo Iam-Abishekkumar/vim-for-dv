@@ -79,3 +79,13 @@ See also: [Linux CLI for DV](https://github.com/Iam-Abishekkumar/linux-cli-for-d
 ## Requirements
 
 `bash`, `vim` and `diff`. Any Linux machine, macOS, or WSL.
+
+## Practise it yourself
+
+This repo shows my solutions. To solve the problems yourself:
+
+1. Click **Fork** (top right) to make your own copy, then clone it:
+   `git clone https://github.com/<your-username>/vim-for-dv.git && cd vim-for-dv`
+2. Run `./fresh_start.sh`. It removes my answers and notes, so every problem is TODO again.
+3. `./play.sh 01`, solve it, then `git add -A && git commit -m "Solve 01" && git push`
+4. In your fork, open the **Actions** tab once and enable workflows, so CI checks your pushes too.
