@@ -36,7 +36,7 @@ cd vim-for-dv
 
 ## Problems
 
-<!-- progress -->**Progress: 14 / 15 solved**<!-- /progress -->
+<!-- progress -->**Progress: 15 / 15 solved**<!-- /progress -->
 
 | # | Problem | Practises | Level | Status |
 |---|---|---|---|---|
@@ -54,7 +54,7 @@ cd vim-for-dv
 | 12 | [Triage a UVM log in Vim](problems/12_log_triage/) | `:v/pattern/d` `:g` `:%s#a#b#` `\S\+` `dd` | Harder | ✅ solved |
 | 13 | [Copy signals across a split](problems/13_split_windows/) | `:vsp` `Ctrl+w w` `V` `y` `V then p` | Medium | ✅ solved |
 | 14 | [Fix one bug in three files](problems/14_buffers/) | `:ls` `:bn` `:bp` `:b N` `:%s` | Medium | ✅ solved |
-| 15 | [Final challenge: spec table to SV package](problems/15_final_regmap/) | `dd` `:%s/^/` `:%s#,#` `gg O` `G o` | Harder | ⬜ to do |
+| 15 | [Final challenge: spec table to SV package](problems/15_final_regmap/) | `dd` `:%s/^/` `:%s#,#` `gg O` `G o` | Harder | ✅ solved |
 
 The status column is refreshed by `./play.sh` (or `./check.sh --readme`). GitHub Actions runs `./check.sh` on every push:
 unsolved problems are fine, but a wrong answer turns the badge red.
